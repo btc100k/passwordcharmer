@@ -8,6 +8,7 @@ This uses Bitcore Lib & Bitcore Mnemonic for generating BIP39 24-word seed phras
 
 # Node -> Browser JS files
 I created the min.js files by running these commands (roughly in this order):
+
     npm init
     npm install bitcore-lib
     npm install bitcore-mnemonic
@@ -15,7 +16,7 @@ I created the min.js files by running these commands (roughly in this order):
     npm install buffer
     npm install browserify
 
-    # to get the version numbers (which I have embedded in the min.js filenames)
+    # To get the version numbers (which I have embedded in the min.js filenames)
     npm ls --depth=0
 
     ./node_modules/.bin/browserify -r buffer > buffer.min.6.0.3.js
