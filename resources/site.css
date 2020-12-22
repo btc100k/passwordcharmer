@@ -1,0 +1,34 @@
+.password_controls {
+    display: none;
+    padding-top: 15px;
+}
+
+table.password_list tbody tr td {
+    vertical-align: middle;
+}
+
+.password_list .pw_label {
+    text-align: right;
+    width: 32px;
+}
+
+.password_list .num {
+    color: #DDD;
+}
+
+.password_list .pw_icon,
+.password_list.with_icons .num {
+    display: none;
+}
+
+.password_list.with_icons .pw_icon {
+    display: inline;
+}
+
+.password_list.with_icons .pw_icon img {
+    width: 32px;
+}
+
+.length-selection-container {
+    margin-top: 15px;
+}
