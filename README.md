@@ -3,8 +3,8 @@
 
 # Attribution
 This uses Bitcore Lib & Bitcore Mnemonic for generating BIP39 24-word seed phrases
-https://github.com/bitpay/bitcore/tree/master/packages/bitcore-lib
-https://github.com/bitpay/bitcore/tree/master/packages/bitcore-mnemonic
+* https://github.com/bitpay/bitcore/tree/master/packages/bitcore-lib
+* https://github.com/bitpay/bitcore/tree/master/packages/bitcore-mnemonic
 
 # Node -> Browser JS files
 I created the min.js files by running these commands (roughly in this order):
